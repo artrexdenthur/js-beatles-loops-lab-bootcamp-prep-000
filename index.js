@@ -8,7 +8,7 @@ function theBeatlesPlay(arrMusicians, arrInstruments) {
   catch(err) {
     console.log("Error: " + err)
   }
-  arrTheBeatlesPlay = []
+  let arrTheBeatlesPlay = []
   for (let i = 0; i < arrMusicians.length; ++i){
     arrTheBeatlesPlay.append(arrMusicians[i] + " plays " + arrInstruments[i])
   }
