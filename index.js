@@ -28,5 +28,6 @@ function iLoveTheBeatles(n) {
   do {
     arrILoveTheBeatles.append("I love the Beatles!");
     ++n;
+    console.log(n);
   } while (n < 15);
 }
