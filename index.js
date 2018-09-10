@@ -19,6 +19,7 @@ function johnLennonFacts(arrFacts) {
   let i = 0;
   while (i < arrFacts.length) {
     arrFacts[i] = arrFacts[i] + "!!!";
+    ++i;
   }
   return arrFacts;
 }
@@ -28,5 +29,5 @@ function iLoveTheBeatles(n) {
   do {
     arrILoveTheBeatles.append("I love the Beatles!");
     ++n;
-  } while (false);
+  } while (n < 15);
 }
